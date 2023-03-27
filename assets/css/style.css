@@ -1,0 +1,21 @@
+@media screen and (min-width: 375px) {
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: hsl(30, 38%, 92%);
+    }
+    
+    h1 {
+        font-family: 'Fraunces', serif;
+    }
+    
+    .title-product {
+        font-size: 14px;
+    }
+    
+    .button {
+        font-weight: bold;
+    }
+}
+
+
+
