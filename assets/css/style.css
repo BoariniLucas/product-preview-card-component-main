@@ -1,21 +1,32 @@
-@media screen and (min-width: 375px) {
-    body {
-        font-family: 'Montserrat', sans-serif;
-        background-color: hsl(30, 38%, 92%);
-    }
-    
-    h1 {
-        font-family: 'Fraunces', serif;
-    }
-    
-    .title-product {
-        font-size: 14px;
-    }
-    
-    .button {
-        font-weight: bold;
-    }
+body {
+    font-family: 'Montserrat', sans-serif;  /* Fonte para descritivos*/        
+    font-size: 14px;
+    background-color: #F3EAE3;
 }
 
+:root {
+    --buttonColor: #3D8168;
+    --priceColor: #557365;
+    --descritivoColor: #6F6F77;
+    --priceAndNameFont: 'Fraunces', serif;
+}
 
+.information h1 {
+    font-family: var(--priceAndNameFont);    
+}
 
+.container {
+    justify-content: center;
+    height: 500px;
+    width: 500px;       
+}
+
+.image {
+    background: url(../images/image-product-desktop.jpg)no-repeat;
+    height: 50%;
+    width: 100%;
+}
+
+.button {
+    font-weight: bold;
+}
