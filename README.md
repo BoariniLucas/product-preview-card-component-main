@@ -27,7 +27,7 @@ Abaixo imagem proposta pelo desafio:
 
 Clicando no link abaixo conseguirá ir no deploy do projeto conseguindo interagir com minha solução para esse desafio na versão desktop:
 
-
+- Deploy do Projeto - [Deploy do Projeto](product-preview-card-component-main-2mw033xdh-boarinilucas.vercel.app)
 
 ### Meu resultado
 
@@ -47,7 +47,7 @@ Versão Mobile:
 
 ### O que aprendi
 
-Com esse projeto consegui melhorar minhas habilidades na responsividade, como manipular melhor imagens e também na criação de variáveis para o arquivo CSS.
+Com esse projeto consegui melhorar minhas habilidades na responsividade, como manipular melhor imagens e também na criação de variáveis para o arquivo CSS. Outro ponto que me atentei nesse projeto foi começar a adotar os padões de commits.
 
 ### Recursos úteis
 
