@@ -5,9 +5,8 @@ Esse projeto tem como finalidade criar uma página de apresentação de produto 
 ## Table of contents
 
 - [O desafio](#o-desafio)
-- [Links](#links)
-- [My process](#my-process)
-- [Meu Processo](#meu-processo)
+- [Link](#link)
+- [Meu resultado](#meu-resultado)
 - [Desenvolvido com](#desenvolvido-com)
 - [O que aprendi](#o-que-aprendi)
 - [Recursos úteis](#recursos-uteis)
@@ -15,18 +14,31 @@ Esse projeto tem como finalidade criar uma página de apresentação de produto 
 
 ### O desafio
 
-Aproposta do seafio é: 
+A proposta do desafio é: 
 
 - Ter uma boa apresentação da página e o usuário conseguir visualizar perfeitamente em desktop ou mobile.
-- Ver o estado diferente apesentado no botão com o mouse por cima.
+- Ver o estado diferente apresentado no botão com o mouse por cima.
 
 Abaixo imagem proposta pelo desafio:
 
 ![screenshot](./design/desktop-preview.jpg)
 
-### Links
+### Link
 
-## Meu Processo
+Clicando no link abaixo conseguirá ir no deploy do projeto conseguindo interagir com minha solução para esse desafio na versão desktop:
+
+
+
+### Meu resultado
+
+Versão Desktop:
+
+![screenshot-meu-resultado-desktop](./design/meu-resultado-desktop.jpg)
+
+
+Versão Mobile:
+![screenshot-meu-resultado-mobile](./design/meu-resultado-mobile.jpg)
+
 
 ### Desenvolvido com
 
@@ -35,11 +47,14 @@ Abaixo imagem proposta pelo desafio:
 
 ### O que aprendi
 
+Com esse projeto consegui melhorar minhas habilidades na responsividade, como manipular melhor imagens e também na criação de variáveis para o arquivo CSS.
+
 ### Recursos úteis
 
 Para esse projeto utilizei os meios abaixo para estudo e tirar dúvidas:
 
 - W3 Schools: [Add solution URL here](https://www.w3schools.com/)
+- Comunidades de programadores no Discord.
 
 ## Autor
 

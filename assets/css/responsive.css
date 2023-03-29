@@ -16,8 +16,8 @@
     .image {
         background-image: url("../images/image-product-mobile.jpg");
         background-repeat: no-repeat;
-        background-position: center 0px;
-        background-size: 100%;
+        background-position: center;
+        background-size: cover;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;   
         height: 40%;
@@ -35,14 +35,6 @@
         color: black;
     }
 
-    .information {
-        color: var(--descritivoColor);
-    }
-
-    .information p strong {
-        letter-spacing: 5px;        
-    }
-
     .price {
         display: inline-block;
         width: 100%;
@@ -57,25 +49,16 @@
 
     .price p strong {
         font-size: 35px;
-        font-family: var(--priceAndNameFont);
-        letter-spacing: 0px;
-        color: var(--priceColor);
     }
 
     .price a {
         display: inline;
         text-decoration: line-through;
-
     }
 
     .button {
         width: 100%;
         height: 4em;
-        font-family: 'Montserrat', sans-serif;
-        border: none;
-        border-radius: 10px;
-        background-color: var(--buttonColor);
-        color: #ffff;
     }
 
 }

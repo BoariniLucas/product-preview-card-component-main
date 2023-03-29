@@ -1,32 +1,119 @@
+:root {
+    --buttonColor: #3D8168;
+    --selectButtonColor: #1A4031;
+    --priceColor: #557365;
+    --descritivoColor: #6F6F77;
+    --priceAndNameFont: 'Fraunces', serif;
+}
+
+.information {
+    color: var(--descritivoColor);
+}
+
+.information h1 {
+    font-family: var(--priceAndNameFont);
+    color: #000;
+}
+
+.information p strong {
+    letter-spacing: 5px;        
+}
+
+.price p strong {
+    font-family: var(--priceAndNameFont);
+    letter-spacing: 0px;
+    color: var(--priceColor);
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--buttonColor);
+    color: #ffff;
+}
+
+
 body {
     font-family: 'Montserrat', sans-serif;  /* Fonte para descritivos*/        
     font-size: 14px;
     background-color: #F3EAE3;
 }
 
-:root {
-    --buttonColor: #3D8168;
-    --priceColor: #557365;
-    --descritivoColor: #6F6F77;
-    --priceAndNameFont: 'Fraunces', serif;
-}
+@media screen and (min-width: 400px) {
 
-.information h1 {
-    font-family: var(--priceAndNameFont);    
-}
+    .container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 65%;
+        width: 40%;
+        border-radius: 15px;
+        margin: 5% auto;
+        background-color: #ffff;   
+ 
+    }
+    
+    .image {
+        background: url(../images/image-product-desktop.jpg)no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        height: 100%;
+        width: 100%;
+        box-sizing: content-box;   
+    }
 
-.container {
-    justify-content: center;
-    height: 500px;
-    width: 500px;       
-}
+    .information {
+        height: 100%;
+        width: 100%;
+        padding: 10%;
+        box-sizing:border-box;
+    }
 
-.image {
-    background: url(../images/image-product-desktop.jpg)no-repeat;
-    height: 50%;
-    width: 100%;
-}
+    .information h1 {
+        font-size: 30px;
+        margin: 10% 0px;
+    }
 
-.button {
-    font-weight: bold;
+    .information p {
+        line-height: 150%;
+        font-size: 13px;
+        margin-bottom: 5%;
+    }
+
+    .information p strong {
+        font-size: 13px;
+    }
+
+    .price {
+        display: inline-block;
+        width: 100%;
+        margin: 8% 0px;
+        word-spacing: 15px;
+    }
+
+    .price p {
+        display: inline;
+        color: var(--descritivoColor);
+    }
+
+    .price a {
+        text-decoration: line-through;
+    }
+
+    .price p strong {
+        font-size: 30px;
+    }
+
+    .button {
+        height: 3em;
+        width: 100%;
+    }
+
+    .button:hover {
+        cursor: pointer;
+        background-color: var(--selectButtonColor);
+    }
+
 }
