@@ -27,7 +27,7 @@ Abaixo imagem proposta pelo desafio:
 
 Clicando no link abaixo conseguirá ir no deploy do projeto conseguindo interagir com minha solução para esse desafio na versão desktop:
 
-- Deploy do Projeto - [Deploy do Projeto](product-preview-card-component-main-2mw033xdh-boarinilucas.vercel.app)
+- Deploy do Projeto - [Deploy do Projeto](https://product-preview-card-component-main-2mw033xdh-boarinilucas.vercel.app)
 
 ### Meu resultado
 
