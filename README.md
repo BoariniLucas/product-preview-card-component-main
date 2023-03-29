@@ -36,7 +36,7 @@ Versão Desktop:
 ![screenshot-meu-resultado-desktop](./design/meu-resultado-desktop.jpg)
 
 
-Versão Mobile:
+Versão Mobile:                                                           
 ![screenshot-meu-resultado-mobile](./design/meu-resultado-mobile.jpg)
 
 
